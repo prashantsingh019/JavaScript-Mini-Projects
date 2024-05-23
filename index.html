@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./Img/favicon-32x32.png">
+  </head>
+  <body>
+    <!-- main container -->
+    <main>
+      <!-- website Name -->
+      <section class="mainHeading">Student Registration System &reg;</section>
+      <!-- form for take info -->
+      <section class="form-section">
+        <form id="info-take">
+          <div class="form-control">
+            <label for="studentName">Student Name</label>
+            <input type="text" name="studentName" id="studentName" placeholder="Enter student name"/>
+          </div>
+          <div class="form-control">
+            <label for="DateOfBirth">Date of Birth</label>
+            <input type="date" name="DateOfBirth" id="DateOfBirth"/>
+          </div>
+          <div class="form-control">
+            <label for="RollNo">Roll No</label>
+            <input type="number" name="RollNo" id="RollNo" placeholder="Enter roll no"/>
+          </div>
+          <div class="form-control">
+            <label for="Class">Class</label>
+            <select name="Class" id="Class">
+              <option>Enter class</option>
+              <option value="12th">12th</option>
+              <option value="11th">11th</option>
+              <option value="10th">10th</option>
+              <option value="9th">9th</option>
+              <option value="8th">8th</option>
+              <option value="7th">7th</option>
+              <option value="6th">6th</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="contact">Contact No</label>
+            <input type="number" name="contact" id="contact"  placeholder="for ex: 00000 00000"/>
+          </div>
+          <div class="form-control">
+            <input type="submit" value="Save" id="submit-btn" />
+          </div>
+        </form>
+      </section>
+      <hr/>
+      <!-- display section for show info -->
+      <section class="display-section">
+         <table>
+              <!-- headings table -->
+              <thead style="background-color: rgba(255, 255, 255, 0.29);color: white;" width = "750">
+                 <tr>
+                 <th width ="200">Student Name</th>
+                 <th width ="150">Date of Birth</th>
+                 <th width ="100">Roll No</th>
+                 <th width ="100">Class</th>
+                 <th width ="100">Contact</th>
+                 <th width ="100">Action</th>
+                </tr>
+              </thead>
+              <tbody  id="table-body">
+                
+                 
+              </tbody>
+         </table>
+      </section>
+    </main>
+    <hr />
+    <script src="./script.js"></script>
+  </body>
+</html>

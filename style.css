@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+hr{
+  width: 100vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main {
+  height: 100vh;
+  background-image: linear-gradient(to right, #EA8D8D , #A890FE);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainHeading {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 5px 0px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.form-section {
+  background-color: rgba(255, 255, 255, 0.226);
+  padding: 20px 55px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+  border: 1px solid white;
+  /* border-bottom: 1px solid white; */
+}
+.form-control {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.form-control label {
+  font-weight: 600;
+  color: white;
+}
+.form-control input{
+  width: 200px;
+  padding: 5px 5px;
+  outline: none;
+  border-radius: 5px;
+}
+/* Display Section starts here */
+
+.display-section table thead th{
+  padding: 5px;
+  border-radius: 2px;
+ }
+ .display-section tr{
+   border: 1px solid white;
+   text-align: center;
+ }
+table td{
+  border: 1px solid white;
+ }
+table{
+  color: white;
+}
+table button{
+  border: none;
+  outline: none;
+  color: white;
+  padding: 2px;
+  border-radius: 2px;
+}
+.del-btn{
+  background-color: rgba(233, 37, 37, 0.694);
+}
+.edit-btn{
+  background-color: rgba(128, 234, 250, 0.693);
+}
